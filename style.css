@@ -5,13 +5,15 @@ body{
     align-items: center;
     
     
+    
 }
 .main-header{
     display: flex;
-    
     flex-direction: column;
     background-color: #1f2937;
-    align-self: flex-end;
+    align-content: center;
+    flex-wrap:wrap;
+  
     
 }
 
@@ -32,16 +34,33 @@ body{
     
 }
 .inner-header{
+    display: flex;
     
     justify-content: space-between;
     align-content: baseline;
 
 }
+.inner{
+    display: flex;
+}
+
 
 .hlinks{
+    display: flex;
     
     gap:10px;
     padding-right:20px;
+}
+
+.l-sect{
+    display: flex;
+    background-color: blue;
+    flex-direction: column;
+}
+
+.r-sect{
+    display: flex;
+    background-color: red;
 }
 
 .footer{
