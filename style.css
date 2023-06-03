@@ -1,11 +1,18 @@
 body{
-    display: flex;
+
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
 }
 .main-header{
     display: flex;
+    
     flex-direction: column;
     background-color: #1f2937;
+    align-self: flex-end;
+    
 }
 
 .title{
@@ -17,8 +24,27 @@ body{
 .link, .subtext {
     color:#e5e7eb;
     font-size: 18px;
+    
 }
 .hlogo{
     font-size:24px;
     color: #F9FAF8;
+    
 }
+.inner-header{
+    
+    justify-content: space-between;
+    align-content: baseline;
+
+}
+
+.hlinks{
+    
+    gap:10px;
+    padding-right:20px;
+}
+
+.footer{
+    background-color: aliceblue;
+}
+
