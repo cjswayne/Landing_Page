@@ -40,28 +40,40 @@ body{
     align-content: baseline;
 
 }
-.inner{
-    display: flex;
-}
-
-
 .hlinks{
     display: flex;
     
     gap:10px;
     padding-right:20px;
 }
+.inner{
+    display: flex;
+    padding-bottom: 100px;
+    gap:100px;
+    
+}
+
 
 .l-sect{
     display: flex;
-    background-color: blue;
+    flex:1;
+    
     flex-direction: column;
+    width: 200px;
+   
+
+    
 }
+
 
 .r-sect{
     display: flex;
-    background-color: red;
+    flex:2
+    width: 200px;
+    
 }
+
+
 
 .footer{
     background-color: aliceblue;
