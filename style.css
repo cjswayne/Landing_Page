@@ -8,4 +8,17 @@ body{
     background-color: #1f2937;
 }
 
+.title{
+    font-size: 48px;
+    font-weight: 1000;
+    color: #F9FAF8;
+}
 
+.link, .subtext {
+    color:#e5e7eb;
+    font-size: 18px;
+}
+.hlogo{
+    font-size:24px;
+    color: #F9FAF8;
+}
