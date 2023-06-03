@@ -1,0 +1,11 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+.main-header{
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+}
+
+
