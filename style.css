@@ -1,18 +1,8 @@
-body{
 
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-    
-    
-}
 .main-header{
-    display: flex;
-    flex-direction: column;
+    
     background-color: #1f2937;
-    align-content: center;
-    flex-wrap:wrap;
+    
   
     
 }
@@ -35,19 +25,21 @@ body{
 }
 .inner-header{
     display: flex;
-    
+    flex-direction: row;
     justify-content: space-between;
-    align-content: baseline;
+    max-width:800px ;
+    
 
 }
 .hlinks{
     display: flex;
     
+    
     gap:10px;
     padding-right:20px;
 }
 .inner{
-    display: flex;
+   
     padding-bottom: 100px;
     gap:100px;
     
@@ -55,10 +47,7 @@ body{
 
 
 .l-sect{
-    display: flex;
-    flex:1;
     
-    flex-direction: column;
     width: 200px;
    
 
@@ -67,8 +56,7 @@ body{
 
 
 .r-sect{
-    display: flex;
-    flex:2
+  
     width: 200px;
     
 }
