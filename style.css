@@ -1,15 +1,8 @@
 
 .main-header{
     display: flex;
-    
-    
     flex-direction: column;
-
-    max-width: 150px;
-   
-    
-  
-    
+    max-width: 150px;  
 }
 
 .title{
@@ -22,12 +15,10 @@
 .link, .subtext {
     color:#e5e7eb;
     font-size: 18px;
-    
 }
 .hlogo{
     font-size:24px;
-    color: #F9FAF8;
-    
+    color: #F9FAF8;  
 }
 .header{
     background-color: #1f2937;
@@ -36,13 +27,10 @@
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: baseline;
-
     padding-top: 0px;
-
     padding-left: 200px;
     padding-right: 200px;
     padding-bottom: 100px;
-    
 }
 .informHeader{
     display: flex;
@@ -50,42 +38,29 @@
     flex-flow: column wrap;
     align-items: flex-start;
 }
-
 .headerLinks{
     display: flex;
     flex-flow: row wrap;
-
 }
 .link{
     padding-left: 20px;
- 
 }
-
-
 .subtext{
     font-size: larger;
 }
-
 .firstImage{
     padding-top:50px;
 }
-
 .hlinks{
     display: flex;
-    
-    
     gap:10px;
     padding-right:20px;
 }
-
-
-
 .leftColumn {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
-
 .rightColumn{
     display: flex;
     flex-flow: column wrap;
@@ -93,9 +68,15 @@
     justify-content: end;
     
 }
-
-
 .footer{
     background-color: aliceblue;
 }
+.headingButton{
+    background-color: #3882f6;
+    color: white;
+    border: 0px;
+    border-radius: 12px;
+    width:150px;
+    height:25px;
 
+}
