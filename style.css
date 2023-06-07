@@ -106,3 +106,7 @@ body{
 .midSectionHeader{
     margin: 75px;
 }
+
+.quoteSection{
+    display: flex;
+}
