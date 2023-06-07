@@ -102,6 +102,8 @@ body{
 .midSectionInfo{
     display: flex;
     gap:50px;
+    margin: 0px;
+    padding: 0;
 }
 .midSectionHeader{
     margin: 75px;
@@ -109,4 +111,38 @@ body{
 
 .quoteSection{
     display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #e5e7eb;
+
 }
+
+.quote{
+    display: flex;
+    width: 700px;
+    font-style: italic;
+    font-size: xx-large;
+    padding: 0px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+
+}
+
+.signMother{
+    display: flex;
+    
+    margin-left: 400px;
+
+    margin-top: 10px;
+}
+
+.thirdSection{
+    display: flex;
+    background-color: #3882f6;
+    margin: 100px;
+    border-radius: 12px;
+    
+}
+
+
